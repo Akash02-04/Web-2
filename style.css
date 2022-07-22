@@ -1,0 +1,356 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+
+
+.header1{
+    display: flex;
+    background-color:rgb(14, 197, 197);
+    height: 2em;
+    color: white;
+    
+}
+.left{
+ padding-left: 4em;
+ padding-top: 0.10em;
+}
+.right1{
+    padding-left: 30em;
+    padding-top: 0.5em;
+}
+.right2{
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+    display: inline-flex;
+    
+}
+
+.right3{
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+}
+.icon a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+   
+}
+.list li{
+list-style: none;
+display: inline;
+padding-left: 5em;
+padding-top: 2em;
+
+
+}
+
+.header2{
+    display: flex;
+    padding-inline-start: 0em;
+}
+.logo img{
+    display: inline;
+    height: 6em;
+}
+.button{
+    margin-left: 15em;
+    block-size: 2em;
+    margin-block-start: 2em;
+    color:white;
+    background-color: rgb(14, 197, 197);
+   border-color: #ffffff00;
+}
+.list{
+    padding-top: 2em;
+}
+
+
+
+.header3 {
+    height: 59%;
+    background: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 340px;
+    justify-content: space-between;
+}
+
+.header3-head-1 {
+    width: 88%;
+    margin: auto auto;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+
+}
+.header3-head-1 h1{
+    color: white;
+    padding-bottom: 12px;
+}
+.header3-head-1 a{
+    color: white;
+    text-decoration: none;
+}
+.header3-head-1 a:hover{
+    color: rgb(10, 170, 160);
+    transition: all 0.3s;
+}
+.header3-head-1 span{
+    color: rgb(10, 170, 160);
+}
+
+.header3-head-2{
+    width: 88%;
+    margin: 0 auto;    
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px;
+}
+.header3-head-2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.header3-head-2 a i{
+    color: rgb(10, 170, 160)
+}
+
+
+.main-box {
+    display: grid;
+    margin: 100px auto;
+    width: 89%;
+    grid-template-columns: repeat(3, auto);
+    gap: 25px 20px;
+}
+
+.container {
+    border: 1px solid #eed1d1;
+    width: 97%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container:hover {
+    box-shadow: 1px 1px 15px #bbafaf;
+    transition: all 0.3s;
+}
+
+.img {
+    position: relative;
+
+}
+
+.img img {
+    width: 100%;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0aaac0;
+    color: white;
+    line-height: 70px;
+    width: 75px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.date:hover {
+    cursor: pointer;
+}
+
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px 0px 15px;
+    font-size: 14px;
+    color: #888;
+}
+
+.blog-info .fa-solid:hover {
+    color: rgb(10, 170, 160);
+    cursor: pointer;
+}
+
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 11px;
+    padding: 15px;
+
+}
+
+.blog-text h3 {
+    color: #1b1b1b;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog-text h3:hover {
+    color: rgb(10, 170, 160);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.blog-text p {
+    text-align: justify;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 17px;
+}
+
+.blog-text a {
+    text-align: right;
+    color: black;
+    font-size: 14px;
+
+}
+
+.blog-text a:hover {
+    color: #0aaac0;
+    transition: all 0.5s;
+}
+
+.admin {
+    display: flex;
+}
+
+.comment {
+    display: flex;
+}
+
+.fa-solid{
+    height: 1.2em;
+    padding-right: 3px;
+}
+
+.fa-solid :hover{
+    color: #0aaac0;
+    transition: all 0.5s;
+}
+
+
+.sponsors {
+    height: 28vh;
+    min-height: 198px;
+    position: relative;
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.sponsor-heading h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.sponsor-heading h2 span:nth-child(2) {
+    color: #4faba1;
+}
+
+.sponsor-heading h2:after {
+    content: "";
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 15%;
+    height: 0.39%;
+    background-color: #c1c1c1;
+    display: block;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sp-logo {
+    border: 1px solid #f4ecec;
+    padding: 30px 18px;
+}
+
+.sp-logo:hover {
+    box-shadow: 1px 1px 7px #bbafaf;
+    transition: all 0.3s;
+}
+
+
+.footer{
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    background-size: cover;
+  width: 100%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  
+}
+.aboutus{
+    padding-top: 1.5em;
+    padding-left: 6.5em;
+    
+   
+}
+.ourproject{
+    padding-top: 1.5em;
+    padding-left: 3.5em;
+   
+}
+.quicklink{
+    padding-top: 1.5em;
+    padding-left: 3.5em;
+}
+.newsletter{
+    padding-top: 1.5em;
+    padding-left: 3.5em;
+}
+.footer1{
+    font-size: smaller;
+    padding-top: 1.5em;
+}
+.footer1 li{
+    padding-top: 1em;
+}
+#footer1{
+    font-size: smaller;
+}
+#contactus{
+    padding-top: 1.5em;
+}
+#email{
+    padding-top: 1.5em;
+}
+.footerend{
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    padding-left: 5em;
+    font-size: small;
+    padding-top: 1em;
+}
+.footericon{
+padding-left: 68em;
+
+
+}
+.footericon a{
+    padding-left: 0.5em;
+    color: white;
+    
+}
