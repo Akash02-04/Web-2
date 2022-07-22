@@ -31,7 +31,7 @@ for(let i=1; i<=9; i++){
     mainBox.append(container);
 }
 
-fetch("https://raw.githubusercontent.com/karan-vaishnav/Grant-Foundation/master/posts.json")
+fetch("https://raw.githubusercontent.com/Akash02-04/Web-2/main/posts.json")
     .then((response) => {
         return response.json()
     })
